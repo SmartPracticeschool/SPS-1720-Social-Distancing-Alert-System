@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Distance Detector</title>
+
+            <style>
+                .bg-dark{
+                    background-color: #42678c !important;
+                }
+            
+                #result{
+                    color: #0a1c4ed1;
+                }
+            </style>
+
+    
+</head>
+<body>
+    <nav class= "navbar navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#">Social distance Violation Detector</a>
+        </div>
+    </nav>
+
+    <div class="navbar navbar-dark bg-info">
+        <div class="container">
+                <div class="row">
+                        <div class="col-sm-8 bd">
+                            <h3>Violation Stream</h3>
+                            <p>COVID-19 spread is emotionally challenging for many people,changing day to day in life unprecedently</p>
+                            <img src="{{ url_for('video_feed')}}" style="height: 2000px" class="img-rounded" alt="Gesture">
+                        </div>
+                        <div class="col-sm-4">
+                            <div >
+                                <img src="https://www.burohappold.com/wp-content/uploads/2020/04/social-distancing_gettystack-1024x68"
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
